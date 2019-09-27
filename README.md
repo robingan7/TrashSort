@@ -35,7 +35,7 @@ solution will classify 95% of the refuse and recyclables.
 > migrate to Bangalore in the next decade. - [NOAH M.
 > SACHS](https://www.theatlantic.com/international/archive/2014/06/confessions-of-a-trash-tourist-india/373118/)
 
-![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/plastic_in_trash.jpeg)
+![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/plastic_in_trash.jpeg)
 
 ### Research
 
@@ -110,8 +110,8 @@ notes I took when I expereinced different combinations.
 -   **Model 1:** This is the first experiment. It is with 0.3 dropout,
     64 neurons per layer, no regularization and 7000 input images.
 
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/11.png)
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/12.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/11.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/12.png)
 
     From the graph, the testing accuracy(batch\_acc) ended up with 98%
     and continued growing during the training. However, the validation
@@ -122,8 +122,8 @@ notes I took when I expereinced different combinations.
 -   **Model 8:** This program is with 0.4 dropout, 64 neurons per layer,
     7000 input images, and 0.0001 regularization.
 
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/81.png)
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/82.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/81.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/82.png)
 
     Although the accuracies are both lower than the first. But we can
     see the greater dropout and regularization. The validation accuracy
@@ -136,8 +136,8 @@ notes I took when I expereinced different combinations.
 -   **Model 12:** This program is with 0.3 dropout, 0.001
     regularization, 7000 input images and 128 neurons per layer.
 
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/121.png)
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/122.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/121.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/122.png)
 
     During this time I really struggled. Both testing accuracy and
     validation accuracy stayed the same. I actually stopped in the
@@ -149,8 +149,8 @@ notes I took when I expereinced different combinations.
 -   **Model 21:** This is the first experiment. It is with 0.3 dropout,
     64 neurons per layer, no regularization and 7000 input images.
 
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/192.png)
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/221.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/192.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/221.png)
 
     From the graph, the testing accuracy(batch\_acc) ended up with 98%
     and continued growing during the training. However, the validation
@@ -161,8 +161,8 @@ notes I took when I expereinced different combinations.
 -   **Model 23:** This one is the exact the same one as last program,
     except that there are 30,000 input images.
 
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/231.png)
-    ![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/232.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/231.png)
+    ![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/232.png)
 
     This one is perfect and ready to go. Both accuracies are above 96%.
     Then, I try another one with 20 epoch. It has impressive 98%
@@ -181,6 +181,7 @@ image capturing, digital IO, and Raspberry Pi 0W (computer) to implement
 the AI program as an actual product. Here are a video and a sketch about
 the electronics design.
 
-![plastic\_in\_trash](/images/project/Google_Science_Fair_2018/electronics.jpg)
+![plastic\_in\_trash](http://robingan.ga/images/project/Google_Science_Fair_2018/electronics.jpg)
+
 
 --Xiangyu(Robin) Gan
